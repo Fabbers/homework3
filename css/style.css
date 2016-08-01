@@ -73,12 +73,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', end
 
 .sidebar{
     float: left;
+    width: 238px;
     
     
 }
 .left-menu{
     border: 1px solid #c8c8c8;
-    width: 240px;
+    width: 238px;
 }
 .left-menu a{
     line-height: 37px;
@@ -99,9 +100,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', end
 
 .product{
     float: right;
-    width: 680px;
+    width: 678px;
+    position: relative;
 }
-.prduct-image{
+.product-image{
     border: 1px solid #c8c8c8;
     text-align: center;
     padding: 40px 0;
@@ -137,6 +139,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', end
     text-decoration: none;
     padding: 0 50px;
     font-size: 15px;
+}
+.top-menu a:hover{
+    color: red;
 }
 #cr{
     float: right;
